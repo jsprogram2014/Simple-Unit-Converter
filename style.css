@@ -3,7 +3,7 @@ body{
     background-color: blac
 }
 #Conversions{
-    justify-content: right;
+    justify-content: center;
     display: grid;
 }
 #home{
@@ -67,27 +67,13 @@ button:hover{
     cursor:pointer;
 }
 /* The calculator panel */
-.b{
-    border-top-style: solid;
-    background-color: white;
-    border-top-width: 20px;
-    width: 600px;
-    height: 400px;
-    border-radius: 10px;
-    margin-bottom: 25px;
-    margin-top: 25px;
-    display: flex;
-}
+
 #temperature{
     border-top-color: green;
     background-color: red;
+    border-radius: 50px;
 }
-.weight{
-    border-top-color: coral;
-}
-.distance{
-    border-top-color: cyan;
-}
+
 legend {
     font-size: 30px;
     font-weight: bolder;
